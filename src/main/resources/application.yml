@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: es-jest
+  elasticsearch:
+    jest:
+      uris: http://10.0.10.104:9200
+      read-timeout: 10s
